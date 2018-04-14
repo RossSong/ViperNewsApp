@@ -12,7 +12,7 @@ import CoreData
 class NewsListLocalDataManager: NewsListLocalDataManagerInputProtocol {
     init() {}
     
-    func retrieveNewsList() throws -> [Article]  {
+    func getNewsList() throws -> [Article]  {
         
         guard let managedOC = CoreDataStore.managedObjectContext else {
             throw ErrorType.managedObjectContextNotFound

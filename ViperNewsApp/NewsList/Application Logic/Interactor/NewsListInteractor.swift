@@ -16,14 +16,14 @@ class NewsListInteractor: NewsListInteractorInputProtocol {
 
     init() {}
     
-    func retrieveNewsList() {
-        APIDataManager?.retrieveNewsList()
+    func getNewsList() {
+        APIDataManager?.getNewsList()
     }
 }
 
 extension NewsListInteractor : NewsListAPIDataManagerOutputProtocol {
  
-    func onNewsRetrieved(_ news: [ArticleModel]) {
+    func didRetreiveNews(_ news: [ArticleModel]) {
         presenter?.didRetrieveNews(news)
         
         do {
@@ -51,7 +51,7 @@ extension NewsListInteractor : NewsListAPIDataManagerOutputProtocol {
     func onError() {
         
         do {
-            if let newsList = try localDatamanager?.retrieveNewsList() {
+            if let newsList = try localDatamanager?.getNewsList() {
 
                 let articleModelList = newsList.map() {
                     return ArticleModel(

@@ -16,10 +16,10 @@ class NewsListPresenter: NewsListPresenterProtocol {
     
     func viewDidLoad() {
         view?.showLoading()
-        interactor?.retrieveNewsList()
+        interactor?.getNewsList()
     }
     
-    func showPostDetail(forNews news: ArticleModel) {
+    func showNewsDetail(forNews news: ArticleModel) {
         wireFrame?.presentNewsDetailScreen(from: view!, forNews: news)
     }
 

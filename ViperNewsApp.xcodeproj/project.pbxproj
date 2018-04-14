@@ -11,6 +11,7 @@
 		8FA3FBB19D8E946E8992275B /* Pods_ViperNewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544B2F8B1CFFB828A6F5ED34 /* Pods_ViperNewsApp.framework */; };
 		D334D0C580929635BE52925F /* Pods_ViperNewsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32121B0D3A7ABF6DAA6A6DB /* Pods_ViperNewsAppTests.framework */; };
 		D5192A682080D84A008272C8 /* StringDateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5192A672080D84A008272C8 /* StringDateTransform.swift */; };
+		D5192A752082441E008272C8 /* Scheme in Resources */ = {isa = PBXBuildFile; fileRef = D5192A742082441E008272C8 /* Scheme */; };
 		D58C1163207FBD4900065490 /* NewsListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C1162207FBD4900065490 /* NewsListViewCell.swift */; };
 		D58C11652080BB6800065490 /* SearchResultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C11642080BB6800065490 /* SearchResultsModel.swift */; };
 		D5EB7218207E3613009A2439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EB7217207E3613009A2439 /* AppDelegate.swift */; };
@@ -66,6 +67,7 @@
 		751126C1C64B15A3D0050966 /* Pods_ViperNewsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperNewsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32121B0D3A7ABF6DAA6A6DB /* Pods_ViperNewsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperNewsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5192A672080D84A008272C8 /* StringDateTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDateTransform.swift; sourceTree = "<group>"; };
+		D5192A742082441E008272C8 /* Scheme */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scheme; sourceTree = "<group>"; };
 		D58C1162207FBD4900065490 /* NewsListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewCell.swift; sourceTree = "<group>"; };
 		D58C11642080BB6800065490 /* SearchResultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsModel.swift; sourceTree = "<group>"; };
 		D5EB7214207E3613009A2439 /* ViperNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +179,7 @@
 		D5EB7216207E3613009A2439 /* ViperNewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				D5192A742082441E008272C8 /* Scheme */,
 				D5EB7287207E5594009A2439 /* Base */,
 				D5EB7261207E450B009A2439 /* NewsDetail */,
 				D5EB724E207E450B009A2439 /* NewsList */,
@@ -493,6 +496,7 @@
 				D5EB7225207E3615009A2439 /* LaunchScreen.storyboard in Resources */,
 				D5EB7222207E3615009A2439 /* Assets.xcassets in Resources */,
 				D5EB721D207E3613009A2439 /* Main.storyboard in Resources */,
+				D5192A752082441E008272C8 /* Scheme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@ class NewsListAPIDataManager: NewsListAPIDataManagerInputProtocol {
     
     var remoteRequestHandler: NewsListAPIDataManagerOutputProtocol?
     
-    func retrieveNewsList() {
+    func getNewsList() {
         
         let params: [String: String] = [
             "country": "ru",
@@ -29,7 +29,7 @@ class NewsListAPIDataManager: NewsListAPIDataManagerInputProtocol {
                 switch response.result {
                     
                     case .success(let results):
-                        self.remoteRequestHandler?.onNewsRetrieved(results.articles)
+                        self.remoteRequestHandler?.didRetreiveNews(results.articles)
                     
                     case .failure(let error):
                         print(error.localizedDescription)

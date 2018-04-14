@@ -41,7 +41,7 @@ protocol NewsListPresenterProtocol: class {
     */
     
     func viewDidLoad()
-    func showPostDetail(forNews news: ArticleModel)
+    func showNewsDetail(forNews news: ArticleModel)
 }
 
 protocol NewsListInteractorOutputProtocol: class {
@@ -60,7 +60,7 @@ protocol NewsListInteractorInputProtocol: class
     /**
     * Add here your methods for communication PRESENTER -> INTERACTOR
     */
-    func retrieveNewsList()
+    func getNewsList()
 }
 
 protocol NewsListDataManagerInputProtocol: class
@@ -76,7 +76,7 @@ protocol NewsListAPIDataManagerInputProtocol: class
     /**
     * Add here your methods for communication INTERACTOR -> APIDATAMANAGER
     */
-    func retrieveNewsList()
+    func getNewsList()
 }
 
 protocol NewsListAPIDataManagerOutputProtocol: class
@@ -85,7 +85,7 @@ protocol NewsListAPIDataManagerOutputProtocol: class
      * Add here your methods for communication APIDATAMANAGER -> INTERACTOR
      */
 
-    func onNewsRetrieved(_ news: [ArticleModel])
+    func didRetreiveNews(_ news: [ArticleModel])
     func onError()
 }
 
@@ -94,7 +94,7 @@ protocol NewsListLocalDataManagerInputProtocol: class
     /**
     * Add here your methods for communication INTERACTOR -> LOCALDATAMANAGER
     */
-    func retrieveNewsList() throws -> [Article]
+    func getNewsList() throws -> [Article]
     func clearNewsCache() throws
     func saveNews(publishedAt: Date,
                   title: String,

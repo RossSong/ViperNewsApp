@@ -30,7 +30,7 @@ class NewsListViewController: UIViewController {
     
     @objc func handleRefresh(_ refreshControl: UIRefreshControl) {
         //self.tableView.reloadData()
-        presenter?.interactor?.retrieveNewsList()
+        presenter?.interactor?.getNewsList()
         refreshControl.endRefreshing()
     }
 
@@ -74,7 +74,7 @@ extension NewsListViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        presenter?.showPostDetail(forNews: newsList[indexPath.row])
+        presenter?.showNewsDetail(forNews: newsList[indexPath.row])
     }
     
 }
