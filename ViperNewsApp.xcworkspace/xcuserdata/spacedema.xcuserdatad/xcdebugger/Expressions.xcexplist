@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "NewsListViewController.showNews(with:):NewsListView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newsList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewsListViewController.viewDidLoad():NewsListView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "presenter">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewsListViewCell.set(forNews:):NewsListViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newsImageView">
+            </PersistentString>
+            <PersistentString
+               value = "news.publishedAt">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StringDateTransform.transformFromJSON(_:):StringDateTransform.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "formatter.date(from: timeStr)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewsDetailViewController.ShowNewsDetail(forNews:):NewsDetailView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "news.publishedAt.description(with: Locale(identifier: &quot;ru-RU&quot;))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
