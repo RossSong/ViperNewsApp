@@ -9,7 +9,7 @@ PKHUD: https://github.com/pkluz/PKHUD<br />
 The responsibility of the view is to send the user actions to the presenter and shows whatever the presenter tells it. <br />
 
 ## Interactor:
-This is the backbone of an application as it contains the business logic. <br />
+This is the backbone of an application as it contains the business logic. For example, creating new instances of entities or retrieving them from the local storage/web services. It uses additional Services or/and Managers that are external dependencies, not part of the VIPER. <br />
 
 ## Presenter:
 It communicates with all other components. Calls the router for wire-framing, Interactor to fetch data (network calls or local data calls), view to update the UI and gets user response from the UI. <br />
