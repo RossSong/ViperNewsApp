@@ -1,5 +1,9 @@
 # ViperNewsApp
 iOS news app using VIPER architecture. This architecture is based on Single Responsibility Principle. <br />
+Alamofire: https://github.com/Alamofire/Alamofire<br />
+AlamofireObjectMapper: https://github.com/tristanhimmelman/AlamofireObjectMapper<br />
+AlamofireImage: https://github.com/Alamofire/AlamofireImage<br />
+PKHUD: https://github.com/pkluz/PKHUD<br />
 
 ## View: 
 The responsibility of the view is to send the user actions to the presenter and shows whatever the presenter tells it. <br />
