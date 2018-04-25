@@ -20,4 +20,4 @@ It contains basic model objects used by the Interactor. <br />
 ## Router:
 It has all navigation logic for describing which screens are to be shown when. Does the wire-framing. Listen from the presenter about which screen to present and executes it. <br />
 
-![alt text](https://github.com/spacedema/ViperNewsApp/blob/master/ViperNewsApp/Scheme/VIPER.png)
+![alt text](https://github.com/spacedema/ViperNewsApp/blob/master/ViperNewsApp/Scheme/Scheme.png)
